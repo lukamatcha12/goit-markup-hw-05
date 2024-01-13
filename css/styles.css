@@ -747,6 +747,24 @@ nav li a:first-child:focus {
     margin-bottom: -2px;
 }
 
+/* portfolio fix not part of hw5 */
+.nav-link-list {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--grey);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0 24px;
+}
+
+.nav-link-list:hover {
+    color: #404bbf;
+}
+
+.nav-link-list:focus {
+    color: #404bbf;
+}
+
 /* .contacts-style {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
