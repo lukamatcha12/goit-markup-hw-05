@@ -168,6 +168,19 @@ nav li a:first-child:focus {
     gap: 40px;
 }
 
+.address-list {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-list:hover {
+    color: #404bbf;
+}
+
+.address-list:focus {
+    color: #404bbf;
+}
 /******** firts section *********/
 .firts-section {
     background-color: #2e2f42;
