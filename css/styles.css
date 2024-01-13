@@ -98,9 +98,9 @@ nav li a:first-child:focus {
     color: var(--light-blue-focus);
 }
 
-.link {
+/* .link {
     text-decoration: none;
-}
+} */
 
 .address {
     font-style: normal;
@@ -710,7 +710,7 @@ nav li a:first-child:focus {
 }
 
 /* HW5 */
-.active.link {
+.active {
     color: #404bbf;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -727,7 +727,7 @@ nav li a:first-child:focus {
     background-color: #404bbf;
 }
 
-.contact>.link {
+.contact > .link {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
