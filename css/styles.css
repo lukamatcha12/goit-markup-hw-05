@@ -402,6 +402,8 @@ nav li a:first-child:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* hw5 */
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socmed-link:hover,
@@ -449,6 +451,9 @@ nav li a:first-child:focus {
     align-items: center;
     justify-content: center;
     color: var(--light-slate);
+    /* h5 */
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-link:hover,
@@ -526,6 +531,7 @@ nav li a:first-child:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-socmed-link:hover,
